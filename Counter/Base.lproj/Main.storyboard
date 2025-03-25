@@ -43,22 +43,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="buttonDidTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aWf-na-uhC"/>
-                                    <action selector="buttonZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DIy-XW-rnr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47d-Ct-Rti">
-                                <rect key="frame" x="46" y="423" width="147" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="buttonPlusTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uQB-zS-XGB"/>
+                                    <action selector="resetCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYE-eR-eLj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXQ-VF-jVW">
@@ -72,7 +57,21 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="buttonMinusTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9il-eQ-3mb"/>
+                                    <action selector="decrementCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xgp-i0-SfI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47d-Ct-Rti">
+                                <rect key="frame" x="46" y="423" width="147" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="incrementCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Ff-JZ-2Fv"/>
                                 </connections>
                             </button>
                         </subviews>
