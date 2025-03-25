@@ -34,5 +34,9 @@ class ViewController: UIViewController {
                     updateLabel()
                 }
     }
+    @IBAction func buttonZero(_ sender: Any) {
+        counter = 0
+        updateLabel()
+    }
 }
 
